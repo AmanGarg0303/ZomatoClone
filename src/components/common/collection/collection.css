@@ -1,0 +1,66 @@
+.collection-wrapper {
+    background-color: var(--inactive-color);
+}
+
+.collection {
+    padding: 15px 0 40px;
+}
+
+.collection-subtitle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.collection-subtitle-text {
+    color: var(--subtitle-text);
+    font-size: 18px;
+}
+
+.collection-location {
+    display: flex;
+    color: var(--zomato-red);
+}
+
+.collection-cover {
+    height: 320px;
+    width: 260px;
+    margin-right: 20px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.gradient-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: var(--bg-gradient);
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+}
+
+.collection-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.collection-card-title {
+    position: absolute;
+    left: 16px;
+    bottom: 30px;
+    font-size: 18px;
+    color: var(--primary-bg);
+}
+
+.collection-card-subtitle {
+    position: absolute;
+    display: flex;
+    color: var(--primary-bg);
+    bottom: 10px;
+    left: 16px;
+    font-size: 14px;
+}
